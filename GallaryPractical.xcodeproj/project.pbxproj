@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D5DB8BD2B6E9A4A00F68D4A /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D5DB8952B6E9A4A00F68D4A /* data.json */; };
+		6D5DB8BE2B6E9A4A00F68D4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D5DB8972B6E9A4A00F68D4A /* LaunchScreen.storyboard */; };
+		6D5DB8BF2B6E9A4A00F68D4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D5DB8992B6E9A4A00F68D4A /* Main.storyboard */; };
+		6D5DB8C02B6E9A4A00F68D4A /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5DB89C2B6E9A4A00F68D4A /* KingfisherManager.swift */; };
+		6D5DB8C12B6E9A4A00F68D4A /* SwiftPhotoGallaryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5DB89D2B6E9A4A00F68D4A /* SwiftPhotoGallaryManager.swift */; };
+		6D5DB8C22B6E9A4A00F68D4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5DB89F2B6E9A4A00F68D4A /* AppDelegate.swift */; };
+		6D5DB8C32B6E9A4A00F68D4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5DB8A02B6E9A4A00F68D4A /* SceneDelegate.swift */; };
+		6D5DB8C42B6E9A4A00F68D4A /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5DB8A42B6E9A4A00F68D4A /* AuthViewModel.swift */; };
+		6D5DB8C52B6E9A4A00F68D4A /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5DB8A62B6E9A4A00F68D4A /* UserModel.swift */; };
+		6D5DB8C62B6E9A4A00F68D4A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5DB8A82B6E9A4A00F68D4A /* LoginViewController.swift */; };
+		6D5DB8C72B6E9A4A00F68D4A /* GallaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5DB8AA2B6E9A4A00F68D4A /* GallaryModel.swift */; };
+		6D5DB8C82B6E9A4A00F68D4A /* GallaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5DB8AB2B6E9A4A00F68D4A /* GallaryViewModel.swift */; };
+		6D5DB8C92B6E9A4A00F68D4A /* GallaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5DB8AC2B6E9A4A00F68D4A /* GallaryViewController.swift */; };
+		6D5DB8CA2B6E9A4A00F68D4A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5DB8AE2B6E9A4A00F68D4A /* ProfileViewController.swift */; };
+		6D5DB8CB2B6E9A4A00F68D4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D5DB8B02B6E9A4A00F68D4A /* Assets.xcassets */; };
+		6D5DB8CC2B6E9A4A00F68D4A /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D5DB8B22B6E9A4A00F68D4A /* Ubuntu-Medium.ttf */; };
+		6D5DB8CD2B6E9A4A00F68D4A /* Ubuntu-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D5DB8B32B6E9A4A00F68D4A /* Ubuntu-LightItalic.ttf */; };
+		6D5DB8CE2B6E9A4A00F68D4A /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D5DB8B42B6E9A4A00F68D4A /* Ubuntu-Regular.ttf */; };
+		6D5DB8CF2B6E9A4A00F68D4A /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D5DB8B52B6E9A4A00F68D4A /* Ubuntu-Bold.ttf */; };
+		6D5DB8D02B6E9A4A00F68D4A /* Ubuntu-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D5DB8B62B6E9A4A00F68D4A /* Ubuntu-MediumItalic.ttf */; };
+		6D5DB8D12B6E9A4A00F68D4A /* Ubuntu-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D5DB8B72B6E9A4A00F68D4A /* Ubuntu-BoldItalic.ttf */; };
+		6D5DB8D22B6E9A4A00F68D4A /* Ubuntu-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D5DB8B82B6E9A4A00F68D4A /* Ubuntu-Italic.ttf */; };
+		6D5DB8D32B6E9A4A00F68D4A /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D5DB8B92B6E9A4A00F68D4A /* Ubuntu-Light.ttf */; };
+		6D5DB8D42B6E9A4A00F68D4A /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5DB8BB2B6E9A4A00F68D4A /* AlertManager.swift */; };
+		6D5DB8D52B6E9A4A00F68D4A /* ActivityIndictorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5DB8BC2B6E9A4A00F68D4A /* ActivityIndictorManager.swift */; };
+		6D5DB8D92B6E9BDF00F68D4A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D5DB8D82B6E9BDF00F68D4A /* GoogleService-Info.plist */; };
+		87566009C8764EB0F652BEA4 /* Pods_GallaryPractical.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 169E1D795F6B24B98BEDEDAE /* Pods_GallaryPractical.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		169E1D795F6B24B98BEDEDAE /* Pods_GallaryPractical.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GallaryPractical.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BC422F4E7041F1BF64635C1 /* Pods-GallaryPractical.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GallaryPractical.debug.xcconfig"; path = "Target Support Files/Pods-GallaryPractical/Pods-GallaryPractical.debug.xcconfig"; sourceTree = "<group>"; };
+		6D5DB87D2B6E99BD00F68D4A /* GallaryPractical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GallaryPractical.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D5DB88E2B6E99BE00F68D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D5DB8952B6E9A4A00F68D4A /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		6D5DB8982B6E9A4A00F68D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D5DB89A2B6E9A4A00F68D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D5DB89C2B6E9A4A00F68D4A /* KingfisherManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KingfisherManager.swift; sourceTree = "<group>"; };
+		6D5DB89D2B6E9A4A00F68D4A /* SwiftPhotoGallaryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftPhotoGallaryManager.swift; sourceTree = "<group>"; };
+		6D5DB89F2B6E9A4A00F68D4A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D5DB8A02B6E9A4A00F68D4A /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6D5DB8A42B6E9A4A00F68D4A /* AuthViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		6D5DB8A62B6E9A4A00F68D4A /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		6D5DB8A82B6E9A4A00F68D4A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6D5DB8AA2B6E9A4A00F68D4A /* GallaryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GallaryModel.swift; sourceTree = "<group>"; };
+		6D5DB8AB2B6E9A4A00F68D4A /* GallaryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GallaryViewModel.swift; sourceTree = "<group>"; };
+		6D5DB8AC2B6E9A4A00F68D4A /* GallaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GallaryViewController.swift; sourceTree = "<group>"; };
+		6D5DB8AE2B6E9A4A00F68D4A /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		6D5DB8B02B6E9A4A00F68D4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D5DB8B22B6E9A4A00F68D4A /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
+		6D5DB8B32B6E9A4A00F68D4A /* Ubuntu-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-LightItalic.ttf"; sourceTree = "<group>"; };
+		6D5DB8B42B6E9A4A00F68D4A /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
+		6D5DB8B52B6E9A4A00F68D4A /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
+		6D5DB8B62B6E9A4A00F68D4A /* Ubuntu-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-MediumItalic.ttf"; sourceTree = "<group>"; };
+		6D5DB8B72B6E9A4A00F68D4A /* Ubuntu-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-BoldItalic.ttf"; sourceTree = "<group>"; };
+		6D5DB8B82B6E9A4A00F68D4A /* Ubuntu-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Italic.ttf"; sourceTree = "<group>"; };
+		6D5DB8B92B6E9A4A00F68D4A /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Light.ttf"; sourceTree = "<group>"; };
+		6D5DB8BB2B6E9A4A00F68D4A /* AlertManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		6D5DB8BC2B6E9A4A00F68D4A /* ActivityIndictorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndictorManager.swift; sourceTree = "<group>"; };
+		6D5DB8D82B6E9BDF00F68D4A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A0E5240B66881AD712AF4EC0 /* Pods-GallaryPractical.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GallaryPractical.release.xcconfig"; path = "Target Support Files/Pods-GallaryPractical/Pods-GallaryPractical.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D5DB87A2B6E99BD00F68D4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87566009C8764EB0F652BEA4 /* Pods_GallaryPractical.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34757B694848F7511A8A463D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				169E1D795F6B24B98BEDEDAE /* Pods_GallaryPractical.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D5DB8742B6E99BD00F68D4A = {
+			isa = PBXGroup;
+			children = (
+				6D5DB87F2B6E99BD00F68D4A /* GallaryPractical */,
+				6D5DB87E2B6E99BD00F68D4A /* Products */,
+				BA4F3CEE14F0FBA0243771B8 /* Pods */,
+				34757B694848F7511A8A463D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6D5DB87E2B6E99BD00F68D4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D5DB87D2B6E99BD00F68D4A /* GallaryPractical.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D5DB87F2B6E99BD00F68D4A /* GallaryPractical */ = {
+			isa = PBXGroup;
+			children = (
+				6D5DB89E2B6E9A4A00F68D4A /* Application */,
+				6D5DB8A12B6E9A4A00F68D4A /* Controllers */,
+				6D5DB8952B6E9A4A00F68D4A /* data.json */,
+				6D5DB8BA2B6E9A4A00F68D4A /* Extenstion */,
+				6D5DB89B2B6E9A4A00F68D4A /* Helper */,
+				6D5DB8AF2B6E9A4A00F68D4A /* Resources */,
+				6D5DB8962B6E9A4A00F68D4A /* StoryBoard */,
+				6D5DB88E2B6E99BE00F68D4A /* Info.plist */,
+				6D5DB8D82B6E9BDF00F68D4A /* GoogleService-Info.plist */,
+			);
+			path = GallaryPractical;
+			sourceTree = "<group>";
+		};
+		6D5DB8962B6E9A4A00F68D4A /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				6D5DB8972B6E9A4A00F68D4A /* LaunchScreen.storyboard */,
+				6D5DB8992B6E9A4A00F68D4A /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		6D5DB89B2B6E9A4A00F68D4A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				6D5DB89C2B6E9A4A00F68D4A /* KingfisherManager.swift */,
+				6D5DB89D2B6E9A4A00F68D4A /* SwiftPhotoGallaryManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		6D5DB89E2B6E9A4A00F68D4A /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				6D5DB89F2B6E9A4A00F68D4A /* AppDelegate.swift */,
+				6D5DB8A02B6E9A4A00F68D4A /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		6D5DB8A12B6E9A4A00F68D4A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6D5DB8A22B6E9A4A00F68D4A /* AuthenticationModule */,
+				6D5DB8A92B6E9A4A00F68D4A /* GallaryModule */,
+				6D5DB8AD2B6E9A4A00F68D4A /* ProfileModule */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6D5DB8A22B6E9A4A00F68D4A /* AuthenticationModule */ = {
+			isa = PBXGroup;
+			children = (
+				6D5DB8A32B6E9A4A00F68D4A /* ViewModel */,
+				6D5DB8A52B6E9A4A00F68D4A /* Model */,
+				6D5DB8A72B6E9A4A00F68D4A /* View */,
+			);
+			path = AuthenticationModule;
+			sourceTree = "<group>";
+		};
+		6D5DB8A32B6E9A4A00F68D4A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6D5DB8A42B6E9A4A00F68D4A /* AuthViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6D5DB8A52B6E9A4A00F68D4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6D5DB8A62B6E9A4A00F68D4A /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6D5DB8A72B6E9A4A00F68D4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6D5DB8A82B6E9A4A00F68D4A /* LoginViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6D5DB8A92B6E9A4A00F68D4A /* GallaryModule */ = {
+			isa = PBXGroup;
+			children = (
+				6D5DB8AA2B6E9A4A00F68D4A /* GallaryModel.swift */,
+				6D5DB8AB2B6E9A4A00F68D4A /* GallaryViewModel.swift */,
+				6D5DB8AC2B6E9A4A00F68D4A /* GallaryViewController.swift */,
+			);
+			path = GallaryModule;
+			sourceTree = "<group>";
+		};
+		6D5DB8AD2B6E9A4A00F68D4A /* ProfileModule */ = {
+			isa = PBXGroup;
+			children = (
+				6D5DB8AE2B6E9A4A00F68D4A /* ProfileViewController.swift */,
+			);
+			path = ProfileModule;
+			sourceTree = "<group>";
+		};
+		6D5DB8AF2B6E9A4A00F68D4A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6D5DB8B02B6E9A4A00F68D4A /* Assets.xcassets */,
+				6D5DB8B12B6E9A4A00F68D4A /* Font */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6D5DB8B12B6E9A4A00F68D4A /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				6D5DB8B22B6E9A4A00F68D4A /* Ubuntu-Medium.ttf */,
+				6D5DB8B32B6E9A4A00F68D4A /* Ubuntu-LightItalic.ttf */,
+				6D5DB8B42B6E9A4A00F68D4A /* Ubuntu-Regular.ttf */,
+				6D5DB8B52B6E9A4A00F68D4A /* Ubuntu-Bold.ttf */,
+				6D5DB8B62B6E9A4A00F68D4A /* Ubuntu-MediumItalic.ttf */,
+				6D5DB8B72B6E9A4A00F68D4A /* Ubuntu-BoldItalic.ttf */,
+				6D5DB8B82B6E9A4A00F68D4A /* Ubuntu-Italic.ttf */,
+				6D5DB8B92B6E9A4A00F68D4A /* Ubuntu-Light.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		6D5DB8BA2B6E9A4A00F68D4A /* Extenstion */ = {
+			isa = PBXGroup;
+			children = (
+				6D5DB8BB2B6E9A4A00F68D4A /* AlertManager.swift */,
+				6D5DB8BC2B6E9A4A00F68D4A /* ActivityIndictorManager.swift */,
+			);
+			path = Extenstion;
+			sourceTree = "<group>";
+		};
+		BA4F3CEE14F0FBA0243771B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BC422F4E7041F1BF64635C1 /* Pods-GallaryPractical.debug.xcconfig */,
+				A0E5240B66881AD712AF4EC0 /* Pods-GallaryPractical.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D5DB87C2B6E99BD00F68D4A /* GallaryPractical */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D5DB8912B6E99BE00F68D4A /* Build configuration list for PBXNativeTarget "GallaryPractical" */;
+			buildPhases = (
+				C5646FE5C362C91E1CD1C66D /* [CP] Check Pods Manifest.lock */,
+				6D5DB8792B6E99BD00F68D4A /* Sources */,
+				6D5DB87A2B6E99BD00F68D4A /* Frameworks */,
+				6D5DB87B2B6E99BD00F68D4A /* Resources */,
+				CFA0FF2F3E848A72E9EFD942 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GallaryPractical;
+			productName = GallaryPractical;
+			productReference = 6D5DB87D2B6E99BD00F68D4A /* GallaryPractical.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D5DB8752B6E99BD00F68D4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					6D5DB87C2B6E99BD00F68D4A = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 6D5DB8782B6E99BD00F68D4A /* Build configuration list for PBXProject "GallaryPractical" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D5DB8742B6E99BD00F68D4A;
+			productRefGroup = 6D5DB87E2B6E99BD00F68D4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D5DB87C2B6E99BD00F68D4A /* GallaryPractical */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D5DB87B2B6E99BD00F68D4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D5DB8D22B6E9A4A00F68D4A /* Ubuntu-Italic.ttf in Resources */,
+				6D5DB8BF2B6E9A4A00F68D4A /* Main.storyboard in Resources */,
+				6D5DB8CC2B6E9A4A00F68D4A /* Ubuntu-Medium.ttf in Resources */,
+				6D5DB8BD2B6E9A4A00F68D4A /* data.json in Resources */,
+				6D5DB8D32B6E9A4A00F68D4A /* Ubuntu-Light.ttf in Resources */,
+				6D5DB8CB2B6E9A4A00F68D4A /* Assets.xcassets in Resources */,
+				6D5DB8CF2B6E9A4A00F68D4A /* Ubuntu-Bold.ttf in Resources */,
+				6D5DB8CD2B6E9A4A00F68D4A /* Ubuntu-LightItalic.ttf in Resources */,
+				6D5DB8D12B6E9A4A00F68D4A /* Ubuntu-BoldItalic.ttf in Resources */,
+				6D5DB8CE2B6E9A4A00F68D4A /* Ubuntu-Regular.ttf in Resources */,
+				6D5DB8D92B6E9BDF00F68D4A /* GoogleService-Info.plist in Resources */,
+				6D5DB8BE2B6E9A4A00F68D4A /* LaunchScreen.storyboard in Resources */,
+				6D5DB8D02B6E9A4A00F68D4A /* Ubuntu-MediumItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C5646FE5C362C91E1CD1C66D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GallaryPractical-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFA0FF2F3E848A72E9EFD942 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GallaryPractical/Pods-GallaryPractical-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GallaryPractical/Pods-GallaryPractical-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GallaryPractical/Pods-GallaryPractical-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D5DB8792B6E99BD00F68D4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D5DB8C62B6E9A4A00F68D4A /* LoginViewController.swift in Sources */,
+				6D5DB8C82B6E9A4A00F68D4A /* GallaryViewModel.swift in Sources */,
+				6D5DB8C42B6E9A4A00F68D4A /* AuthViewModel.swift in Sources */,
+				6D5DB8C92B6E9A4A00F68D4A /* GallaryViewController.swift in Sources */,
+				6D5DB8C72B6E9A4A00F68D4A /* GallaryModel.swift in Sources */,
+				6D5DB8C22B6E9A4A00F68D4A /* AppDelegate.swift in Sources */,
+				6D5DB8CA2B6E9A4A00F68D4A /* ProfileViewController.swift in Sources */,
+				6D5DB8C02B6E9A4A00F68D4A /* KingfisherManager.swift in Sources */,
+				6D5DB8D42B6E9A4A00F68D4A /* AlertManager.swift in Sources */,
+				6D5DB8D52B6E9A4A00F68D4A /* ActivityIndictorManager.swift in Sources */,
+				6D5DB8C12B6E9A4A00F68D4A /* SwiftPhotoGallaryManager.swift in Sources */,
+				6D5DB8C52B6E9A4A00F68D4A /* UserModel.swift in Sources */,
+				6D5DB8C32B6E9A4A00F68D4A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6D5DB8972B6E9A4A00F68D4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D5DB8982B6E9A4A00F68D4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6D5DB8992B6E9A4A00F68D4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D5DB89A2B6E9A4A00F68D4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D5DB88F2B6E99BE00F68D4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D5DB8902B6E99BE00F68D4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D5DB8922B6E99BE00F68D4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BC422F4E7041F1BF64635C1 /* Pods-GallaryPractical.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GallaryPractical/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GallaryPractical;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ravi.GallaryPractical;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6D5DB8932B6E99BE00F68D4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0E5240B66881AD712AF4EC0 /* Pods-GallaryPractical.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GallaryPractical/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GallaryPractical;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ravi.GallaryPractical;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D5DB8782B6E99BD00F68D4A /* Build configuration list for PBXProject "GallaryPractical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D5DB88F2B6E99BE00F68D4A /* Debug */,
+				6D5DB8902B6E99BE00F68D4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D5DB8912B6E99BE00F68D4A /* Build configuration list for PBXNativeTarget "GallaryPractical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D5DB8922B6E99BE00F68D4A /* Debug */,
+				6D5DB8932B6E99BE00F68D4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D5DB8752B6E99BD00F68D4A /* Project object */;
+}

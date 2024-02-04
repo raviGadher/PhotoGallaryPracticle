@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>289135618319-n1jlhi7iqk6gu13s2gjqdja70rfgdg4d.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.289135618319-n1jlhi7iqk6gu13s2gjqdja70rfgdg4d</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDBVziGNzXKi0yJ1aaufp9M06__uM9KXt8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>289135618319</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Ravi.GallaryPractical</string>
+	<key>PROJECT_ID</key>
+	<string>gallarypractical</string>
+	<key>STORAGE_BUCKET</key>
+	<string>gallarypractical.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:289135618319:ios:8f2ae71fa7419e075c367a</string>
+</dict>
+</plist>
